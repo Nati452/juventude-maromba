@@ -3,10 +3,15 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UsuarioController;
+use App\Http\Controllers\SiteController;
+use App\Http\Controllers\TreinoController;
+use App\Http\Controllers\ExercicioController;
+
+
 
 Route::get('/login', [UsuarioController::class, 'loginView']);
 
-Route::get('/home', [UsuarioController::class, 'homeView']);
+Route::get('/', [SiteController::class, 'home']);
 
 Route::get('/exselecionado', [UsuarioController::class, 'exselecionadoView']);
 
