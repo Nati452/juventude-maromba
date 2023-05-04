@@ -46,7 +46,7 @@
           </div>
           <h3>Treinos</h3>
           <span> </span> 
-          <a href="musculoalvo.blade.php"><button></button></a>
+          <a href="/treinos"><button></button></a>
         </section>
 
         <section class="card shop ">
@@ -56,7 +56,7 @@
           
           <h3>Exercícios</h3>
           <span></span> 
-         <a href="listagem.blade.php"><button></button></a>
+         <a href="/exselecionado"><button></button></a>
         </section>
 
         <section class="card about">
@@ -65,7 +65,7 @@
           </div>
           <h3>Conta</h3>
           <span></span> 
-          <a href="minhaconta.blade.php"><button></button></a>
+          <a href="/minhaconta"><button></button></a>
         </section>
         </main>   
         
