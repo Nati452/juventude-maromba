@@ -6,19 +6,21 @@
     font-family:"Poppins", sans-serif;
 }
 body {
-    background:#F6F9FF ;
+    background:#e6eeff ;
     height: 100vh;
     width: 100%;
-   align-items: center;
+  
+
     display: flex;
     justify-content: center;
-    
+    align-items: center;
 
-    color: #434343;
+    color: #000000;
 
 }
 main.cards {
     display: flex;
+    flex-direction: row;
     padding: 32px;
 }
 
@@ -27,7 +29,7 @@ main.cards section.card{
     flex-direction: column;
     align-items: center;
     text-align: center;
-    background: #fff ;
+    background: #ffffff ;
     padding: 1rem 1.5rem;
     border-radius: 8px;
     max-height: 256px;
@@ -44,17 +46,67 @@ main.cards section.card .icon{
     height: 64px;
 }
 
+main.cards section.card h3{
+    margin: 16px 0;
+}
+
+
 
 
 main.cards section.card img{
-    width: 100%;
+    width: 120%;
 
 }
 
+main.cards section.card.shop img{
+    width: 130%;
+}
+
+main.cards section.card.about img{
+    width: 130%;
+}
+
 main.cards section.card button{
-    padding: 0.5rem 1rem;
+    padding: 0.80rem 7rem;
     text-transform: uppercase;
     border-radius: 32px;
     border:0;
     cursor:pointer;
+    font-size:  30%;
+    font-weight: 500;
+    color: #fff;
+  
+}
+
+main.cards section.card.contact button{
+ background: linear-gradient(to right, #90abf7,#254dc4);
+
+}
+
+main.cards section.card.shop button{
+    background: linear-gradient(to right, #90abf7,#254dc4);
+   
+   }
+
+   main.cards section.card.about button{
+    background: linear-gradient(to right, #90abf7,#254dc4);
+   
+   }
+
+button:focus{
+    outline: none;
+    background: linear-gradient(to #0040ff,#000000);  
+
+}
+
+main.cards section.card.contact{
+    box-shadow: 20px 20px 50px -30px #37139b;
+}
+
+main.cards section.card.shop{
+    box-shadow: 20px 20px 50px -30px #37139b;
+}
+
+main.cards section.card.about{
+    box-shadow: 20px 20px 50px -30px #37139b;
 }
