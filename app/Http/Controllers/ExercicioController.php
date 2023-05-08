@@ -9,7 +9,7 @@ class ExercioController extends Controller
     public function exselecionadoView()
 	{
         
-		return view("exselecionado");
+		return view("exercicio");
 	}
 
 	
