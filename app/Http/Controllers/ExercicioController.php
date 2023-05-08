@@ -4,12 +4,12 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class ExercioController extends Controller
+class ExercicioController extends Controller
 {
     public function exselecionadoView()
 	{
         
-		return view("exercicio");
+		return view("exselecionado");
 	}
 
 	
