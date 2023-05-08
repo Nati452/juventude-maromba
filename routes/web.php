@@ -5,7 +5,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UsuarioController;
 use App\Http\Controllers\SiteController;
 use App\Http\Controllers\TreinoController;
-use App\Http\Controllers\ExercicioController;
+use App\Http\Controllers\ExercicioController; 
 
 
 Route::get('/', [SiteController::class, 'home']);

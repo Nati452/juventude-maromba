@@ -11,6 +11,7 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/nav.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
@@ -27,60 +28,48 @@
     }
   </style>
 <body>
+    <header>
+      <nav>
+        <a class="logo" href="/">tiger</a>
+        <ul class="nav-list">
+          <li><a href="/">pesquisar</a></li>
+      </nav>
+    </header>
 
 
 
-<nav>
-    <div class="nav-wrapper  indigo accent-4">
-      <a href="#" class="brand-logo right"><img src="/img/logo.jpg"  width="60"></a>
-      <ul id="nav-mobile" class="left hide-on-med-and-down">
-      <li><a class="dropdown-trigger" href="#!" data-target="dropdown1"><i class="material-icons">menu</i><i class="material-icons right">arrow_drop_down</i></a></li>
-       <li><a href="collapsible.html"><nav>
-    <div class="nav-wrapper  indigo accent-4 ">
-      <form>
-        <div class="input-field">
-          <input id="search" type="search" required>
-          <label class="label-icon" for="search"><i class="material-icons">search</i></label>
-          <i class="material-icons">close</i>
-        </div>
-      </form>
-    </div>
-  </nav></a></li>
   
-      </ul>
-    </div>
-  </nav>
         <main class="cards">
-        <section class="card">
+        <section class="card contact">
           <div class="icon">
           <img src="/img/treinos.png" alt="Contact us.">
           </div>
-         
           <h3>Treinos</h3>
-          <span> dasssh</span> 
-          <button>lorm More</button>
+          <span> </span> 
+          <a href="/treinos"><button></button></a>
         </section>
-        <section class="card">
+
+        <section class="card shop ">
           <div class="icon">
           <img src="/img/exercicios.png" alt="Contact us.">
           </div>
           
           <h3>Exercícios</h3>
-          <span> dasssh</span> 
-          <button>lorm More</button>
+          <span></span> 
+         <a href="/exselecionado"><button></button></a>
         </section>
-        <section class="card">
+
+        <section class="card about">
           <div class="icon">
           <img src="/img/conta.png" alt="Contact us.">
           </div>
-          
           <h3>Conta</h3>
-          <span> dasssh</span> 
-          <button>lorm More</button>
+          <span></span> 
+          <a href="/minhaconta"><button></button></a>
         </section>
         </main>   
         
-    
+
 </body>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
 </html>
