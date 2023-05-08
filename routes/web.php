@@ -14,7 +14,7 @@ Route::get('/login', [UsuarioController::class, 'loginView']);
 
 
 
-Route::get('/exselecionado', [UsuarioController::class, 'exselecionadoView']);
+Route::get('/exselecionado', [ExercicioController::class, 'exselecionadoView']);
 
 Route::get('/meussalvos', [UsuarioController::class, 'meussalvosView']);
 
