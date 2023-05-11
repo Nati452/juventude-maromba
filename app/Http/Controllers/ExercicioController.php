@@ -2,15 +2,20 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Exercicio;
 use Illuminate\Http\Request;
 
 class ExercicioController extends Controller
 {
-    public function exselecionadoView()
-	{
-        
-		return view("exselecionado");
-	}
+    
 
-	
+	public function exselecionadoView($idExercicio)
+	{
+		// Pega um único exercício da tabela (acha pelo id)
+		$exercicio = Exercicio::find($idExercicio);
+
+		return view("exselecionado", [
+			'exercicio' => $exercicio, // Envia o exercicio para a blade
+		]);
+	}
 }
