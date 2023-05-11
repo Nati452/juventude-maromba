@@ -12,7 +12,7 @@ Route::get('/', [SiteController::class, 'home']);
 
 Route::get('/login', [UsuarioController::class, 'loginView']);
 
-
+Route::get('/treino', [TreinoController::class, 'treinoView']);
 
 Route::get('/exselecionado', [ExercicioController::class, 'exselecionadoView']);
 
