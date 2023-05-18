@@ -31,15 +31,41 @@
 </style>
 
 <body>
-  <header class="flex-row content-vcenter content-space-between " id="cabecalho">
-    <span class="material-symbols-outlined" id="menu">
-      menu
+  <header id="hearder" class="flex-row content-vcenter content-space-between " id="cabecalho">
+    <span class="material-symbols-outlined" id="btnmenu">
+    menu
+
     </span>
-    <span class="material-symbols-outlined" id="pesquisa">
-        <input type="text" id="caixa">
+    <div id="divBusca">
+  <input type="text" id="txtBusca" placeholder="Buscar..."/>
+  <img src="../img/pesquisa.png "  id="pesquisa" id="btnBusca" alt="Buscar"/>
+</div>
+  
+</div>
     </span>
   <img src="../img/logo.jpg" id="imagem">
   </header>
+   
+  <div class="conteudo grow">
+     <nav id="menu" class="flex-col box fit-width space-30">
+     <a href="" class="flex-row gap-10 content-vcenter">
+       <img src="../img/treino2.png" id="imgtreino">
+       <span>TREINOS</span>
+     </a>
+     <a href="" class="flex-row space-10 content-vcenter">
+     <img src="../img/exercicio2.png" id="imgexercicios">
+     <span>EXERCÍCIOS</span>
+     </a>
+     <a href="" class="flex-row space-10 content-vcenter">
+     <img src="../img/conta2.png" id="imgconta">
+     <span>CONTA</span>
+     </a>
+     </nav>
+
+
+
+
+
 
 
 
@@ -63,7 +89,7 @@
 
       <h3></h3>
       <span></span>
-      <a href="/exselecionado"><button>EXERCÍCIOS</button></a>
+      <a href="/exercicios"><button>EXERCÍCIOS</button></a>
     </section>
 
     <section class="card about">

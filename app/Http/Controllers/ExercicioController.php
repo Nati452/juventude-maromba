@@ -18,4 +18,12 @@ class ExercicioController extends Controller
 			'exercicio' => $exercicio, // Envia o exercicio para a blade
 		]);
 	}
+
+	public function exerciciosView()
+	{
+
+		return view("exercicios", [
+			
+		]);
+	}
 }

@@ -14,6 +14,9 @@ Route::get('/login', [UsuarioController::class, 'loginView']);
 
 Route::get('/treino', [TreinoController::class, 'treinoView']);
 
+Route::get('/exercicios', [ExercicioController::class, 'exerciciosView']);
+
+
 Route::get('/exselecionado', [ExercicioController::class, 'exselecionadoView']);
 
 Route::get('/meussalvos', [UsuarioController::class, 'meussalvosView']);
