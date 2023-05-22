@@ -104,7 +104,8 @@ main.cards section.card.about{
 }
 
 #cabecalho {
-    background-color:#1d2ad8ad ;
+    background-color:transparent;
+    background-color:#0a1391c0;
     backdrop-filter:blur(11px);
 }
 
@@ -131,7 +132,7 @@ main.cards section.card.about{
 }
 
 #divBusca{
-    background-color:#1019979c;
+    background-color:#0a1391c0;
     border:solid 1px;
     border-radius:15px;
     width:300px;
@@ -174,10 +175,16 @@ main.cards section.card.about{
 
    #menu {
        border-radius: 0 0  15px 0;
+       background-color:transparent;
+       background-color: #0a1391c0;
+       position:absolute;
+       margin-top: 80px;
+    
     
    }
 
    #menu a {
-     color:#000000;
+     color:#ffffff;
      text-decoration: none;
+    
    }

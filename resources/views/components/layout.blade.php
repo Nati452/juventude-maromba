@@ -20,8 +20,8 @@
 </head>
 
 <body>
-    <header class="flex-row content-vcenter content-space-between " id="cabecalho">
-        <span class="material-symbols-outlined" id="menu">
+    <header class="flex-row content-vcenter  content-space-between " id="cabecalho">
+        <span class="material-symbols-outlined" id="btnmenu">
             menu
 
         </span>
@@ -32,8 +32,26 @@
         </div>
         </span>
         <img src="../img/logo.jpg" id="imagem">
+
+     
+
     </header>
-    <div id="conteudo">
+    <nav id="menu" class="flex-col box fit-width space-30">
+     <a href="" class="flex-row gap-10 content-vcenter">
+       <img src="../img/treino2.png" id="imgtreino">
+       <span>TREINOS</span>
+     </a>
+     <a href="" class="flex-row space-10 content-vcenter">
+     <img src="../img/exercicio2.png" id="imgexercicios">
+     <span>EXERCÍCIOS</span>
+     </a>
+     <a href="" class="flex-row space-10 content-vcenter">
+     <img src="../img/conta2.png" id="imgconta">
+     <span>CONTA</span>
+     </a>
+     </nav>
+     
+    <div id="conteudo" class="grow flex-col">
         {{ $slot }}
     </div>
 
