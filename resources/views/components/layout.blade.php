@@ -17,11 +17,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="/css/style.css">
+    <script src="/js/layout.js"> </script>
 </head>
 
 <body>
     <header class="flex-row content-vcenter  content-space-between " id="cabecalho">
-        <span class="material-symbols-outlined" id="btnmenu">
+        <span onclick="mostrarMenu()" class="material-symbols-outlined" id="btnmenu">
             menu
 
         </span>
@@ -36,16 +37,16 @@
      
 
     </header>
-    <nav id="menu" class="flex-col box fit-width space-30">
-     <a href="" class="flex-row gap-10 content-vcenter">
+    <nav id="menu" class="flex-col  fit-width space-30 hidden">
+     <a href="/treinos" class="flex-row gap-10 content-vcenter">
        <img src="../img/treino2.png" id="imgtreino">
        <span>TREINOS</span>
      </a>
-     <a href="" class="flex-row space-10 content-vcenter">
+     <a href="/exercicios" class="flex-row space-10 content-vcenter">
      <img src="../img/exercicio2.png" id="imgexercicios">
      <span>EXERCÍCIOS</span>
      </a>
-     <a href="" class="flex-row space-10 content-vcenter">
+     <a href="/minhaconta" class="flex-row space-10 content-vcenter">
      <img src="../img/conta2.png" id="imgconta">
      <span>CONTA</span>
      </a>
