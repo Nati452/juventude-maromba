@@ -226,27 +226,50 @@ main.cards section.card.about{
     border-radius: 20px 20px 20px 20px;
    }
 
-  #iconta {
-    width: 100px;
-    height: 100px;
-    display: grid;
-    place-items: center;
+   #iconta {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   
+    
+   }
+
+   .texto {
+    width: 500px;
+    height: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #2b2b2b54;
+   }
+
+
+    .textoo {
+   width: 500px;
+   height: 30px;
+   position: absolute;
+   top: 60%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   background-color: #2b2b2b54;
+    }
+
+    .entrar {
+    width: 150px;
+    height: 30px;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: linear-gradient(to right, #90abf7,#254dc4);
+    
+    }
+  .textooo {
+    position: absolute;
+  top: 100%; /* Ajuste o valor conforme necessário */
+  left: 0;
   }
-
-.texto {
-    width: 100px;
-    height: 30px;
-    display: inline;
-    position:relative;
-    top: 180px;
-
-}
-
-.textoo {
-    width: 100px;
-    height: 30px;
-    display: inline;
-    position:relative;
-    top: 300px;
-
-}
