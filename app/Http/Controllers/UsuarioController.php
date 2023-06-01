@@ -11,4 +11,16 @@ class UsuarioController extends Controller
         
 		return view("minhaconta");
 	}
+
+	public function loginView()
+	{
+        
+		return view("login");
+	}
+
+	public function cadastroView()
+	{
+        
+		return view("cadastro");
+	}
 }

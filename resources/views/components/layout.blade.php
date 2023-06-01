@@ -17,6 +17,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/contaCadas.css">
+    <link rel="stylesheet" href="/css/treinoBox.css">
+    <link rel="stylesheet" href="/css/homeCards.css">
     <script src="/js/layout.js"> </script>
 </head>
 
@@ -46,7 +49,7 @@
      <img src="../img/exercicio2.png" id="imgexercicios">
      <span>EXERCÍCIOS</span>
      </a>
-     <a href="/minhaconta" class="flex-row space-10 content-vcenter">
+     <a href="/login" class="flex-row space-10 content-vcenter">
      <img src="../img/conta2.png" id="imgconta">
      <span>CONTA</span>
      </a>

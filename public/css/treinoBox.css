@@ -1,0 +1,24 @@
+.box {
+    width: 250px;
+    height: 250px;
+    background-color: transparent;
+    background-color: #6780caa6;
+    border-radius: 20px 20px 20px 20px;
+   }
+   
+   .box img {
+    width: 220px;
+    height: 220px;
+   }
+
+   .caixa {
+    width: 250px;
+    height: 50px;
+    position:relative;
+    top: -26px;
+    border-radius: 0px 0px 20px 20px;
+    background-color: #1e1785;
+    border: 1px solid #1e1785;
+    padding: 10px;
+    color: #fffefe;
+   }

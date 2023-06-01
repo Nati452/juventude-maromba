@@ -45,7 +45,7 @@
       </div>
       <h3></h3>
       <span></span>
-      <a href="/minhaconta"><button>CONTA</button></a>
+      <a href="/login"><button>CONTA</button></a>
     </section>
   </main>
 </x-layout>

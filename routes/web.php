@@ -29,6 +29,10 @@ Route::get('/pratica', [UsuarioController::class, 'praticaView']);
 
 Route::get('/treinos', [TreinoController::class, 'listagemView']);
 
+Route::get('/cadastro', [UsuarioController::class, 'cadastroView']);
+
+Route::get('/teste', [SiteController::class, 'testeView']);
+
 
 // As views ficam na pasta resourcer/views
 // Todas as views vão ter a extenção .blade.php
