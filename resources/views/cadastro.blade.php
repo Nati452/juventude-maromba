@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="/css/contaCadas.css">
 <x-layout>
 <style>
   body {
@@ -14,17 +15,19 @@
     }
 </style>
 
- <div class="box flex-row " id="form-cadastro">
+ <div class="box flex-row content-center space-30 " >
         <div class="flex-col">
-            <p>Venha mudar seu futuro com a gente!</p>
-            <img src="/img/imgCadastro.png" alt="">
+            <p id="texo2">Venha mudar seu futuro com a gente! </p>
+            <img src="/img/imgCadastro.png" id="img-cadastro">
             
             </div>
         <div class="flex-col">
-        <form action="" id="form-cadastro" class="flex-col box-round space-30">
+        <form action="" id="form-cadastro" class="flex-col space-30">
            
+            <input type="name" name="name" placeholder="Nome Completo">
             <input type="email" name="email" placeholder="E-mail">
-            <input type="password" name="senha" placeholder="Senha">
+            <input type="password" name="senha" placeholder="Criar Senha">
+            <input type="password" name="senha" placeholder="Confirmar Senha">
             <button id="but-cadastro" type="submit">Cadastrar-se</button>
             
         </form>

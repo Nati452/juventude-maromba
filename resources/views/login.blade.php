@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="/css/contaCadas.css">
 <x-layout>
 <style>
 body {

@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="/css/treinoBox.css">
+
 <x-layout>
 <style>
  body {

@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="/css/homeCards.css">
+
 <x-layout>
 <style>
   body {

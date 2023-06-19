@@ -20,25 +20,30 @@
         }
 
 
+
+.box {
+    background-color: #bebebe50;
+}
+
 #form-cadastro {
     width: 450px;
-    background-color: #bebebe50;
-    backdrop-filter: blur(5px) ;
-    box-shadow: 0px 0px 30px #a2befa;
     
 }
 
 #img-cadastro {
-    height: 250px;
+    height: 230px;
     object-fit: contain;
+   
 }
 
-#but-cadastrar {
+#but-cadastro {
     background: linear-gradient(to right, #688bec,#03195c); 
     border-radius: 20px 20px 20px 20px;
     color: aliceblue;
 }
 
 #texo2 {
-    color: aliceblue;
+    font-size:30px;
+    color: #FDFEFE;
+    font-family: 'Staatliches', cursive;
 }

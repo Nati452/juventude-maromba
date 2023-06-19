@@ -1,103 +1,102 @@
-
 #cabecalho {
-    background-color:transparent;
-    background-color:#0a1391c0;
-    backdrop-filter:blur(11px);
+  background-color: transparent;
+  background-color: #0a1391c0;
+  backdrop-filter: blur(11px);
 }
 
 #btnmenu {
-    font-size: 40px;
-    margin-left: 30px;
-    color: #fff;
+  font-size: 40px;
+  margin-left: 30px;
+  color: #fff;
 }
 
 #imagem {
-    width: 80px;
-    height: 80px;
+  width: 80px;
+  height: 80px;
 }
 
 #pesquisa {
-    color: #fff;
-    font-size: 30px;
+  color: #fff;
+  font-size: 30px;
 }
 
 #caixa {
-  position:static;
+  position: static;
   color: #000000;
-  
+
 }
 
-#divBusca{
-    background-color:#0a1391c0;
-    border:solid 1px;
-    border-radius:15px;
-    width:300px;
-    color: #fff;
-  }
-  
-  #txtBusca{
-    float:left;
-    color: #fff;
-    background-color:transparent;
-    padding-left:5px;
-    font-style:italic;
-    font-size:18px;
-    border:none;
-    height:32px;
-    width:260px;
-    
-  }
+#divBusca {
+  background-color: #0a1391c0;
+  border: solid 1px;
+  border-radius: 15px;
+  width: 300px;
+  color: #fff;
+}
 
-  #pesquisa {
-    width: 26px;
-    height: 26px;
-  
-  }
+#txtBusca {
+  float: left;
+  color: #fff;
+  background-color: transparent;
+  padding-left: 5px;
+  font-style: italic;
+  font-size: 18px;
+  border: none;
+  height: 32px;
+  width: 260px;
 
-  #imgtreino {
-    width: 30px;
-    height: 30px;
-  }
+}
 
-    #imgexercicios {
-        width: 40px;
-        height: 40px;
-    }
+#pesquisa {
+  width: 26px;
+  height: 26px;
 
-   #imgconta {
-    width: 30px;
-    height: 30px;
-   }
+}
 
-   #menu {
-       border-radius: 0 0  15px 0;
-       background-color:transparent;
-       background-color: #0a1391c0;
-       position:absolute;
-       margin-top: 80px;
-    
-    
-   }
+#imgtreino {
+  width: 30px;
+  height: 30px;
+}
 
-   #menu a {
-     color:#ffffff;
-     text-decoration: none;
-    
-   }
+#imgexercicios {
+  width: 40px;
+  height: 40px;
+}
 
-   .hidden {
-       display: none;
-   }
+#imgconta {
+  width: 30px;
+  height: 30px;
+}
 
-   *::placeholder {
-    color: white;
+#menu {
+  border-radius: 0 0 15px 0;
+  background-color: transparent;
+  background-color: #0a1391c0;
+  position: absolute;
+  margin-top: 80px;
+
+
+}
+
+#menu a {
+  color: #ffffff;
+  text-decoration: none;
+
+}
+
+.hidden {
+  display: none;
+}
+
+*::placeholder {
+  color: white;
 }
 
 input {
-    color: white;
+  color: white;
 }
 
-  
-
-
-  
+.box {
+  background-color: #bebebe57;
+  border-radius: 20px 20px 20px 20px;
+}
