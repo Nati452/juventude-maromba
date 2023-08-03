@@ -41,14 +41,7 @@
       <a href="/exercicios"><button>EXERCÍCIOS</button></a>
     </section>
 
-    <section class="card about">
-      <div class="icon">
-        <img src="/img/conta.png" alt="Contact us.">
-      </div>
-      <h3></h3>
-      <span></span>
-      <a href="/login"><button>CONTA</button></a>
-    </section>
+    
   </main>
 </x-layout>
 
