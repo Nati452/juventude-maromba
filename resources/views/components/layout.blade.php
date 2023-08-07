@@ -38,7 +38,7 @@
         </div>
         </div>
         </span>
-        <img src="../img/logo.jpg" id="imagem">
+        <img src="../img/" id="imagem">
 
      
 

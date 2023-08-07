@@ -3,7 +3,13 @@
 <x-layout>
 <style>
   body {
-    background-image: url('/img/fundo2.jpg');
+    background: #000428;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
+
     background-repeat: no-repeat;
     background-position: center 0%;
     background-color: blue;
@@ -21,25 +27,7 @@
 
 
 
-  <main class="cards grow content-center">
-    <section class="card contact">
-      <div class="icon">
-        <img src="/img/treinos.png" alt="Contact us.">
-      </div>
-      <h3>  </h3>
-      <span> </span>
-      <a href="/treinos"><button>TREINOS</button></a>
-    </section>
-
-    <section class="card shop ">
-      <div class="icon">
-        <img src="/img/exercicios.png" alt="Contact us.">
-      </div>
-
-      <h3></h3>
-      <span></span>
-      <a href="/exercicios"><button>EXERCÍCIOS</button></a>
-    </section>
+  
 
     
   </main>

@@ -1,6 +1,6 @@
 #cabecalho {
   background-color: transparent;
-  background-color: #0a1391c0;
+  background-color: #f7f7f728;
   backdrop-filter: blur(11px);
 }
 
@@ -8,6 +8,7 @@
   font-size: 40px;
   margin-left: 30px;
   color: #fff;
+  cursor: pointer;
 }
 
 #imagem {
@@ -27,11 +28,12 @@
 }
 
 #divBusca {
-  background-color: #0a1391c0;
+  background-color: #f7f7f71a;
   border: solid 1px;
   border-radius: 15px;
   width: 300px;
   color: #fff;
+  cursor: pointer;
 }
 
 #txtBusca {
@@ -71,7 +73,7 @@
 #menu {
   border-radius: 0 0 15px 0;
   background-color: transparent;
-  background-color: #0a1391c0;
+  background-color: #c7c8ce33;
   position: absolute;
   margin-top: 80px;
 
@@ -97,6 +99,6 @@ input {
 }
 
 .box {
-  background-color: #bebebe57;
+  background-color: #f7f7f728;
   border-radius: 20px 20px 20px 20px;
 }
