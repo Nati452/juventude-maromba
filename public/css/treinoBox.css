@@ -1,8 +1,9 @@
 
 
 .box img {
-    width: 250px;
+    width: 200px;
     height: 200px;
+    object-fit: contain;
 }
 
 .caixa {
@@ -20,5 +21,11 @@
     width: 250px;
     height: 250px;
     background-color: transparent !important;
-    border: 1px solid rgba(255, 255, 255, 0.274) !important;
+    border: 1px solid rgba(255, 255, 255, 0.11) !important;
+    transition: 0.3s;
+}
+
+.box:hover {
+    box-shadow: 0 0 9px 2px var(--cor-destaque);
+    transform: scale(1.05);
 }

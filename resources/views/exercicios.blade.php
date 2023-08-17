@@ -1,39 +1,40 @@
 <link rel="stylesheet" href="/css/exercicios.css">
+<script src="/js/exercicios.js"></script>
 
 <x-layout>
-<style>
-  body {
-    background: #000046;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-    background-repeat: no-repeat;
-    background-position: center 0%;
-    background-color: blue;
-    background-size: cover;
+  <div class="flex-row space-30 content-space-bewteen ">
+    <div class="box1">
 
-  }
+      <div class="caixa1">
+        <div class="flex-row space-30 content-center">
+          <div onclick="mostrarCorpo()">Homem: Frente</div>
+          <div onclick="mostrarCorpo()">Mulher: Frente</div>
+          <div onclick="mostrarCorpo()">Homem: Costas</div>
+          <div onclick="mostrarCorpo()">Mulher: Costas</div>
+        </div>
 
-</style>
-</x-layout>
+        <div id="front-male"  class="corpo-humano">
+          <?php include base_path() . '\public\img\corpo-humano\homem-frente.svg'; ?>
+        </div>
+        
+        
+        <div id="end-male" class="corpo-humano hidden">
+          <?php include base_path() . '\public\img\corpo-humano\homem-costas.svg'; ?>
+        </div>
 
-<div class="flex-row space-30 content-space-bewteen ">
-     <div class="box1">
-     
-     <div class="caixa1">
-      <div class="flex-row space-30 content-lef">
-     <div>Homem</div>
-     <div>Mulher</div>
-     <div>Frente</div>
-     <div>Costas</div>
+        
+        <div id="front-female" class="corpo-humano hidden">
+          <?php include base_path() . '\public\img\corpo-humano\mulher-frente.svg'; ?>
+        </div>
+
+        
+        <div id="end-female" class="corpo-humano hidden">
+          <?php include base_path() . '\public\img\corpo-humano\mulher-costas.svg'; ?>
+        </div>
+
       </div>
-     <img src="../img/front-male.svg"> 
-     </div>
-</div>
-</div>
+    </div>
+  </div>
 
-
-
-
-
-
+</x-layout>

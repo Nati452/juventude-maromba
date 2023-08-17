@@ -1,6 +1,6 @@
 .box1 img {
     height: 750px;
-    margin:auto;
+    margin: auto;
     display: block;
 }
 
@@ -19,5 +19,31 @@
 
 .homem {
     color: #fffefe;
+
+}
+
+.corpo-humano {
+    height: 700px;
+    text-align: center;
+}
+
+.corpo-humano path {
+    stroke: #00052a;
+    stroke-width: 6px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+#abdominals:hover path,
+#obliques:hover path,
+#forearms:hover path,
+#biceps:hover path,
+#traps:hover path,
+#chest:hover path,
+#quads:hover path,
+#calves:hover path,
+#traps:hover path,
+#shoulders:hover path {
+    fill: var(--cor-destaque);
     
 }

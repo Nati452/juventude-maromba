@@ -1,0 +1,3 @@
+ function mostrarCorpo() {
+    alert("Homem");
+ }

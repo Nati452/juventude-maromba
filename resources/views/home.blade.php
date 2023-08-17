@@ -13,7 +13,7 @@
       /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     }
   </style>
-  <a class="card" id="card-treino" href="#">
+  <a class="card" id="card-treino" href="/treinos">
     <div class="text" id="textreino1">
     Treinos
     </div>
@@ -24,7 +24,7 @@
     </div>
   </a>
 
-  <a class="card" id="card-exercicio" href="#">
+  <a class="card" id="card-exercicio" href="/exercicios">
     
     <div class="box" id="video2">
       <video autoplay muted loop class="background-video">

@@ -26,7 +26,7 @@
     <script src="/js/layout.js"> </script>
 </head>
 
-<body>
+<body >
     <header class="flex-row content-vcenter  content-space-between " id="cabecalho">
         <span onclick="mostrarMenu()" class="material-symbols-outlined" id="btnmenu">
             menu
@@ -58,6 +58,8 @@
     <div id="conteudo" class="grow flex-col">
         {{ $slot }}
     </div>
+
+   
 
 </body>
 
