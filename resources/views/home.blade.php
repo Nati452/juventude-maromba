@@ -13,6 +13,9 @@
       /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     }
   </style>
+  <div class="frase">
+  O único treino ruim é aquele que não acontece
+  </div>
   <a class="card" id="card-treino" href="/treinos">
     <div class="text" id="textreino1">
     Treinos
@@ -23,7 +26,6 @@
       </video>
     </div>
   </a>
-
   <a class="card" id="card-exercicio" href="/exercicios">
     
     <div class="box" id="video2">
