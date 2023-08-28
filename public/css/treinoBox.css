@@ -12,7 +12,7 @@
     position: relative;
     top: -2px;
     border-radius: 0px 0px 20px 20px;
- 
+    background-color: rgba(26, 28, 167, 0);      
     padding: 10px;
     color: #ffffff;
 }

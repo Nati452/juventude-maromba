@@ -153,8 +153,10 @@
    margin-right: 230px;
    background:
             linear-gradient(to right,
-               #3a7fd8,
-                #13163d);
+               #4efadd96,
+                #ffffff,
+                #ffffff);
+
         display: inline-block;
         -webkit-background-clip: text;
         background-clip: text;
