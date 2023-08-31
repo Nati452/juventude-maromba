@@ -19,7 +19,7 @@
   <div class="frase">
   O único treino ruim é aquele que não acontece
   </div>
-  <a class="card" id="card-treino" href="/treinos">
+  <a class="card" href="/treinos" id="card-treino" >
     <div class="text" id="textreino1">
     Treinos
     </div>
