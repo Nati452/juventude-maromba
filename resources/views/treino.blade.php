@@ -3,14 +3,17 @@
 <x-layout>
 
    <div class="content-center">
-    <img src="../img/BUMBUM2.PNG"  >
+    <img src="../img/nomes/BUMBUM2.PNG">
+  
+ 
+    
 </div>
 <div class="box flex-row content-center space-30 " >
 
         <div class="flex-col">
 
             
-            <img src="/img/c.png" id="img">
+            <img src="/img/treino/aa.png" id="img">
 
            
 
