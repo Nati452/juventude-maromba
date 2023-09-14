@@ -33,8 +33,12 @@
           <?php include base_path() . '\public\img\corpo-humano\mulher-costas.svg'; ?>
         </div>
 
+      
+
       </div>
     </div>
   </div>
 
+  
+  
 </x-layout>

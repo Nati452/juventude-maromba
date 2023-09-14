@@ -39,12 +39,12 @@
     <div class="text" id="textreino2">
       Exercícios
     </div>
-
-    
   </a>
  
 
-
+<div class="box1" >
+<l>Antes e depois de pessoas que ultilizaram nosso site</l>
+</div>
 
 
 
