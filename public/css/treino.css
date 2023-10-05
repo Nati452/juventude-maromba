@@ -1,31 +1,37 @@
-@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@200;400&family=Staatliches&display=swap');
-
-  
-  @import url('https://fonts.googleapis.com/css2?family=Handjet:wght@200;400&family=Sedgwick+Ave+Display&family=Staatliches&display=swap');
-
-
-.table {
-     color: rgb(255, 252, 252);
-    background-color: transparent;
-    caption-side:center;
-    width: 900px;
-    height: 70px;
+#conteudo {
+    padding: 40px;
+    
+    
 }
 
-th {
-    background: #041d5285;
-    border: 1px solid rgb(255, 255, 255);
+.tabela {
+    margin-top: 30px;
+    background-color:transparent;
+    color: #fff;
+ 
+    
 }
 
-td {
-    border: 1px solid rgb(255, 255, 255);
+.text {
+    font-size: 65px;
 }
 
-#exercicios {
-    width: 30%;
+
+.text2 {
+    font-size: 45px;
 }
 
-#img {
+
+
+
+.descricao {
+    color: #fff;
+    font-size: 20px;
+ margin-left: 40px;
+}
+
+td img{
+
     width: 290px;
     height: 200px;
 }

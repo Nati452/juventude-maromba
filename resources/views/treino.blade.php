@@ -2,50 +2,122 @@
 
 <x-layout>
 
-   <div class="content-center">
-    <img src="../img/nomes/BUMBUM2.PNG">
-  
- 
+    <div class="content-center">
+        <img src="../img/nomes/BUMBUM2.PNG">
+
+        <div class="descricao">O objetivo deste treino é fortalecer e tonificar os músculos dos glúteos, incluindo o glúteo máximo, médio e mínimo.
+            Um glúteo forte não apenas melhora a estética, mas também contribui para a estabilidade e função do quadril.</div>
+
+
+    </div>
+
+    <table class="tabela">
+        <tbody>
+            <tr>
+                <td class="text2">1ª SÉRIE</td>
+                <td class="content-center">
+                    <img src="../img/treino/aa.png" alt="">
+                    <div>Rosca W</div>
+                </td>
+                <td>
+                    <div class="text">15</div>
+                    <div>repetições</div>
+                </td>
+                <td>
+                    <div class="text">60s</div>
+                    <div>segundos</div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
     
-</div>
-<div class="box flex-row content-center space-30 " >
+    <table class="tabela">
+        <tbody>
+            <tr>
+                <td class="text2">2ª SÉRIE</td>
+                <td class="content-center">
+                    <img src="../img/treino/aa.png" alt="">
+                    <div>Rosca W</div>
+                </td>
+                <td>
+                    <div class="text">15</div>
+                    <div>repetições</div>
+                </td>
+                <td>
+                    <div class="text">60s</div>
+                    <div>segundos</div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
 
-        <div class="flex-col">
+    <table class="tabela">
+        <tbody>
+            <tr>
+                <td class="text2">2ª SÉRIE</td>
+                <td class="content-center">
+                    <img src="../img/treino/aa.png" alt="">
+                    <div>Rosca W</div>
+                </td>
+                <td>
+                    <div class="text">15</div>
+                    <div>repetições</div>
+                </td>
+                <td>
+                    <div class="text">60s</div>
+                    <div>segundos</div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
 
-            
-            <img src="/img/treino/aa.png" id="img">
 
-           
+    <table class="tabela">
+        <tbody>
+            <tr>
+                <td class="text2">2ª SÉRIE</td>
+                <td class="content-center">
+                    <img src="../img/treino/aa.png" alt="">
+                    <div>Rosca W</div>
+                </td>
+                <td>
+                    <div class="text">15</div>
+                    <div>repetições</div>
+                </td>
+                <td>
+                    <div class="text">60s</div>
+                    <div>segundos</div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
 
-            </div>
-<div class="flex-col">
 
-  <table class="table bordered striped centered">
-    <tr>
-        <th>1º SÉRIE</th>
-        <th>2º SÉRIE</th>
-        <th>3º SÉRIE</th>
-        <th>4º SÉRIE</th>
-    </tr>
-    <tr>
-        <td>15 REPETIÇÕES
-        <li>2 MINUTOS DE DESCANÇO</li>
-        </td>
-        <td>15 REPETIÇÕES
-<li>2 MINUTOS DE DESCANÇO</li>
-        </td>
-        <td>15 REPETIÇÕES
-        <li>2 MINUTOS DE DESCANÇO</li>
-        </td>
-        <td>15 REPETIÇÕES
-       <li> 2 MINUTOS DE DESCANÇO</li>
-        </td>
-      
-    </tr>
+    <table class="tabela">
+        <tbody>
+            <tr>
+                <td class="text2">2ª SÉRIE</td>
+                <td class="content-center">
+                    <img src="../img/treino/aa.png" alt="">
+                    <div>Rosca W</div>
+                </td>
+                <td>
+                    <div class="text">15</div>
+                    <div>repetições</div>
+                </td>
+                <td>
+                    <div class="text">60s</div>
+                    <div>segundos</div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
 
+    
    
     
-</table>
-</div>
   
+
+
 </x-layout>

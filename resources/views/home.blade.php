@@ -42,9 +42,7 @@
   </a>
  
 
-<div class="box1" >
-<l>Antes e depois de pessoas que ultilizaram nosso site</l>
-</div>
+
 
 
 
