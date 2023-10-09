@@ -20,21 +20,21 @@ class TreinoController extends Controller
 			],
 			(object) [
 				'id' => 2,
-				'img' => '/img/banners/bumbum.jpg',
+				'img' => '/img/banners/pernas.jpg',
 			],
 			(object) [
 				'id' => 3,
-				'img' => '/img/banners/costas.jpg',
+				'img' => '/img/banners/supino.jpg',
 			],
 			(object) [
 				'id' => 4,
-				'img' => '/img/banners/panturrilha.jpg',
+				'img' => '/img/banners/braco.jpg',
 			],
 
 		
 		(object) [
 			'id' => 4,
-			'img' => '/img/banners/coxas.jpg',
+			'img' => '/img/banners/panturrilha.jpg',
 		],
 
 
@@ -56,17 +56,17 @@ class TreinoController extends Controller
 
 (object) [
 	'id' => 4,
-	'img' => '/img/banners/braco.jpg',
+	'img' => '/img/banners/bumbum.jpg',
 ],
 
 (object) [
 	'id' => 4,
-	'img' => '/img/banners/pernas.jpg',
+	'img' => '/img/banners/costas.jpg',
 ],
 
 (object) [
 	'id' => 4,
-	'img' => '/img/banners/supino.jpg',
+	'img' => '/img/banners/coxas.jpg',
 ],
 
 

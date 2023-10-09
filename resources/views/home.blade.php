@@ -1,10 +1,11 @@
-
 <link rel="stylesheet" href="/css/home.css">
+
+<link rel="stylesheet" href="/css/home2.css">
+
 
 
 <x-layout>
   <style>
-    
     body {
       background: #000428;
       /* fallback for old browsers */
@@ -12,16 +13,15 @@
       /* Chrome 10-25, Safari 5.1-6 */
       background: linear-gradient(to right, #004e92, #000428);
       /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-      
+
     }
-    
   </style>
   <div class="frase">
-  O único treino ruim é aquele que não acontece
+    O único treino ruim é aquele que não acontece
   </div>
-  <a class="card" href="/treinos" id="card-treino" >
+  <a class="card" href="/treinos" id="card-treino">
     <div class="text" id="textreino1">
-    Treinos
+      Treinos
     </div>
     <div class="box" id="video1">
       <video autoplay muted loop class="background-video">
@@ -30,7 +30,7 @@
     </div>
   </a>
   <a class="card" id="card-exercicio" href="/exercicios">
-    
+
     <div class="box" id="video2">
       <video autoplay muted loop class="background-video">
         <source src="/video/mulher.mp4" type="video/mp4">
@@ -40,12 +40,25 @@
       Exercícios
     </div>
   </a>
- 
 
 
 
 
 
+
+<div>
+  <div class="box2 fex-row content-left ">
+    <h1 class="text6">FLEXIBILIDADE PARA TREINAR</h1>
+    <h1 class="text6">ONDE E QUANDO QUISER</h1>
+    <h1 class="text5">Você poderá ver nosso conteúdo onde quiser e na hora que quiser,
+       usando seu computador, celular, tablet ou notebook. Independente se você estiver viajando, de férias, 
+       no trabalho ou em casa, você poderá levar a geração maromba para onde você for.</h1>
+      </div>
+      <div class="fex-row content-right">
+    <img src="../img/celular.png">
+      </div>
+
+  </div>
 
 
 
