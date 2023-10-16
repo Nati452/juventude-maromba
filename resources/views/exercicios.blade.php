@@ -32,13 +32,20 @@
         <div id="end-female" class="corpo-humano hidden">
           <?php include base_path() . '\public\img\corpo-humano\mulher-costas.svg'; ?>
         </div>
-
-      
-
       </div>
     </div>
+
+
+    <div class="flex-row space-20" id="direito">
+    <img src="../img/cartaz/teste.jpg">
+    <img src="../img/cartaz/teste.jpg">
+    <img src="../img/cartaz/teste.jpg">
+    <img src="../img/cartaz/teste.jpg">
   </div>
 
-  
+  </div>
+
+
+ 
   
 </x-layout>

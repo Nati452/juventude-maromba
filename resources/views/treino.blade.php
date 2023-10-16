@@ -16,7 +16,9 @@
             <tr>
                 <td class="text2">1ª SÉRIE</td>
                 <td class="content-center">
-                    <img src="../img/treino/aa.png" alt="">
+                    <a href="/exselecionado">
+                    <img src="../img/treino/aa.png" >
+                    </a>
                     <div>Rosca W</div>
                 </td>
                 <td>

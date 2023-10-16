@@ -1,0 +1,37 @@
+.text1 {
+    color: rgb(250, 250, 250);
+    font-size: 50px;
+    margin-top: 20px;
+}
+
+.container {
+    display: flex; /* Define o container como flexível */
+    align-items: center; /* Alinha verticalmente o conteúdo */
+}
+
+.image {
+    flex: 1; /* A imagem ocupa 1 parte do container flexível */
+}
+
+.text {
+    flex: 2; /* O texto ocupa 2 partes do container flexível */
+    padding: 10px; /* Espaçamento interno para o texto */
+}
+
+.text {
+color: rgb(255, 255, 255);
+font-size: 20px;
+}
+
+.text2 {
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+video {
+  width: 1250px;
+  height: 600px;  
+  margin-top: 30px;
+}

@@ -47,3 +47,17 @@
     fill: var(--cor-destaque);
     
 }
+
+
+#direito img{
+   
+    height: 295px;
+  
+}
+
+
+#direito {
+    flex-basis: 475px;
+    flex-grow: 1;
+    align-content: baseline;
+}

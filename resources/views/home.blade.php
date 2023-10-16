@@ -46,19 +46,11 @@
 
 
 
-<div>
-  <div class="box2 fex-row content-left ">
-    <h1 class="text6">FLEXIBILIDADE PARA TREINAR</h1>
-    <h1 class="text6">ONDE E QUANDO QUISER</h1>
-    <h1 class="text5">Você poderá ver nosso conteúdo onde quiser e na hora que quiser,
-       usando seu computador, celular, tablet ou notebook. Independente se você estiver viajando, de férias, 
-       no trabalho ou em casa, você poderá levar a geração maromba para onde você for.</h1>
-      </div>
-      <div class="fex-row content-right">
-    <img src="../img/celular.png">
-      </div>
 
-  </div>
+
+  
+
+  <
 
 
 

@@ -1,17 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@200;400&family=Oswald:wght@200&family=Poppins:wght@200&family=Roboto:ital,wght@1,300&family=Staatliches&display=swap');
 
-  @import url('https://fonts.googleapis.com/css2?family=Handjet:wght@200;400&family=Oswald:wght@200&family=Poppins:wght@200&family=Roboto:ital,wght@1,300&family=Staatliches&display=swap');
 
-.text6 {
-    color: #ffffff;
+.container {
+  display: flex;
+  /* Define o container como flexível */
+  align-items: center;
+  /* Alinha verticalmente o conteúdo */
+}
 
-   }
+.img2 {
 
-   .text5 {
-    color: #ffffff;
-    font-size: 30px;
-    font-family: 'Handjet', cursive;
-font-family: 'Oswald', sans-serif;
-font-family: 'Poppins', sans-serif;
-font-family: 'Roboto', sans-serif;
-font-family: 'Staatliches', cursive;
-   }
+  width: 600px;
+  height: 600px;
+}
+
+.text {
+  flex: 2;
+  /* O texto ocupa 2 partes do container flexível */
+  padding: 10px;
+  /* Espaçamento interno para o texto */
+  font-size: 30px;
+  font-family: 'Handjet', sans-serif;
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Staatliches', sans-serif;
+}
+
+

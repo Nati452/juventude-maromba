@@ -9,8 +9,9 @@ class ExercicioController extends Controller
 {
     
 
-	public function exselecionadoView($idExercicio)
+	public function exselecionadoView(Request $request)
 	{
+		$idExercicio = $request->input('id');
 		// Pega um único exercício da tabela (acha pelo id)
 		$exercicio = Exercicio::find($idExercicio);
 

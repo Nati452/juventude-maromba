@@ -84,6 +84,8 @@
   background-color: #c7c8ce33;
   position: absolute;
   margin-top: 60px;
+  z-index: 1;
+  backdrop-filter: blur(5px);
 
 
 }
