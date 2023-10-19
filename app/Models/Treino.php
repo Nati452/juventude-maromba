@@ -12,9 +12,9 @@ class Treino extends Model
     protected $table = 'treino';
     public $timestamps = false;
 
-    public function exerciciosTreino(): HasMany
+    public function series(): HasMany
     {
-        return $this->hasMany(ExercicioTreino::class, "id_exercicio");
+        return $this->hasMany(ExercicioTreino::class, "id_treino");
     }
 }
 

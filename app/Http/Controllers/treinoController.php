@@ -5,80 +5,35 @@ namespace App\Http\Controllers;
 use App\Models\MusculoAlvo;
 use Illuminate\Http\Request;
 use App\Models\Treino;
+use App\Models\User;
 
 class TreinoController extends Controller
 {
 	public function listagemView()
 	{
-		// Pega todos os registros da tabela treinos
-		// $treinos = Treino::all();
+		$treinos = Treino::all();
 
-		$treinos = [
-			(object) [
-				'id' => 1,
-				'img' => '/img/banners/biceps.jpg',
-			],
-			(object) [
-				'id' => 2,
-				'img' => '/img/banners/pernas.jpg',
-			],
-			(object) [
-				'id' => 3,
-				'img' => '/img/banners/supino.jpg',
-			],
-			(object) [
-				'id' => 4,
-				'img' => '/img/banners/braco.jpg',
-			],
-
-		
-		(object) [
-			'id' => 4,
-			'img' => '/img/banners/panturrilha.jpg',
-		],
-
-
-	(object) [
-		'id' => 4,
-		'img' => '/img/banners/triceps.jpg',
-	],
-
-(object) [
-	'id' => 4,
-	'img' => '/img/banners/tropa2.jpg',
-],
-
-
-(object) [
-	'id' => 4,
-	'img' => '/img/banners/abdomem.jpg',
-],
-
-(object) [
-	'id' => 4,
-	'img' => '/img/banners/bumbum.jpg',
-],
-
-(object) [
-	'id' => 4,
-	'img' => '/img/banners/costas.jpg',
-],
-
-(object) [
-	'id' => 4,
-	'img' => '/img/banners/coxas.jpg',
-],
-
-
-		];
-		
 		return view("treinos", [
-			'treinos' => $treinos // Envia os registros para a blade
+			'treinos' => $treinos
 		]);
 	}
-	public function treinoView(){
-		return view("treino");
 
+	public function treinoView(Request $request)
+	{
+		$idTreino = $request->input('id');
+		$treino = Treino::find($idTreino);
 
+		return view("treino", [
+			'treino' => $treino
+		]);
+	}
+
+	public function listagemUsuarios()
+	{
+		$users = User::all();
+
+		return view("listagem-usuario", [
+			"users" => $users
+		]);
 	}
 }

@@ -3,123 +3,37 @@
 <x-layout>
 
     <div class="content-center">
-        <img src="../img/nomes/BUMBUM2.PNG">
+        <img src="{{$treino->imagem}}">
 
-        <div class="descricao">O objetivo deste treino é fortalecer e tonificar os músculos dos glúteos, incluindo o glúteo máximo, médio e mínimo.
-            Um glúteo forte não apenas melhora a estética, mas também contribui para a estabilidade e função do quadril.</div>
+        <div class="descricao">{{$treino->descricao}}</div>
 
 
     </div>
 
+    <?php $contador = 1; ?>
+    @foreach($treino->series as $serie)
     <table class="tabela">
         <tbody>
             <tr>
-                <td class="text2">1ª SÉRIE</td>
+                <td class="text2">{{ $contador }}ª SÉRIE</td>
                 <td class="content-center">
                     <a href="/exselecionado">
-                    <img src="../img/treino/aa.png" >
+                    <img src="{{ $serie->exercicio->imagem }}" >
                     </a>
-                    <div>Rosca W</div>
+                    <div>{{$serie->exercicio->nome}}</div>
                 </td>
                 <td>
-                    <div class="text">15</div>
+                    <div class="text">{{$serie->repeticoes}}</div>
                     <div>repetições</div>
                 </td>
                 <td>
-                    <div class="text">60s</div>
+                    <div class="text">{{ $serie->descanso }}s</div>
                     <div>segundos</div>
                 </td>
             </tr>
         </tbody>
     </table>
-
-    
-    <table class="tabela">
-        <tbody>
-            <tr>
-                <td class="text2">2ª SÉRIE</td>
-                <td class="content-center">
-                    <img src="../img/treino/aa.png" alt="">
-                    <div>Rosca W</div>
-                </td>
-                <td>
-                    <div class="text">15</div>
-                    <div>repetições</div>
-                </td>
-                <td>
-                    <div class="text">60s</div>
-                    <div>segundos</div>
-                </td>
-            </tr>
-        </tbody>
-    </table>
-
-    <table class="tabela">
-        <tbody>
-            <tr>
-                <td class="text2">2ª SÉRIE</td>
-                <td class="content-center">
-                    <img src="../img/treino/aa.png" alt="">
-                    <div>Rosca W</div>
-                </td>
-                <td>
-                    <div class="text">15</div>
-                    <div>repetições</div>
-                </td>
-                <td>
-                    <div class="text">60s</div>
-                    <div>segundos</div>
-                </td>
-            </tr>
-        </tbody>
-    </table>
-
-
-    <table class="tabela">
-        <tbody>
-            <tr>
-                <td class="text2">2ª SÉRIE</td>
-                <td class="content-center">
-                    <img src="../img/treino/aa.png" alt="">
-                    <div>Rosca W</div>
-                </td>
-                <td>
-                    <div class="text">15</div>
-                    <div>repetições</div>
-                </td>
-                <td>
-                    <div class="text">60s</div>
-                    <div>segundos</div>
-                </td>
-            </tr>
-        </tbody>
-    </table>
-
-
-    <table class="tabela">
-        <tbody>
-            <tr>
-                <td class="text2">2ª SÉRIE</td>
-                <td class="content-center">
-                    <img src="../img/treino/aa.png" alt="">
-                    <div>Rosca W</div>
-                </td>
-                <td>
-                    <div class="text">15</div>
-                    <div>repetições</div>
-                </td>
-                <td>
-                    <div class="text">60s</div>
-                    <div>segundos</div>
-                </td>
-            </tr>
-        </tbody>
-    </table>
-
-    
-   
-    
-  
-
+    <?php $contador++; ?>
+    @endforeach
 
 </x-layout>

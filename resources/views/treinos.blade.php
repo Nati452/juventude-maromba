@@ -5,7 +5,7 @@
     <?php $i = 1; ?>
     @foreach($treinos as $t)
     <a data-animation="zoom" data-animation-delay="{{ 50 * $i }}" href="/treino?id={{ $t->id }}" class="boxTreino">
-      <img src="{{ $t->img }}">
+      <img src="{{ $t->imagem }}">
     </a>
     <?php $i++; ?>
     @endforeach
