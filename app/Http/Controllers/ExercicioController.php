@@ -7,8 +7,6 @@ use Illuminate\Http\Request;
 
 class ExercicioController extends Controller
 {
-    
-
 	public function exselecionadoView(Request $request)
 	{
 		$idExercicio = $request->input('id');
@@ -20,8 +18,10 @@ class ExercicioController extends Controller
 		]);
 	}
 
-	public function exerciciosView()
+	public function exerciciosView(Request $request)
 	{
+		$musculoAlvo = $request->input("musculo_alvo");
+		// dd($musculoAlvo);
 
 		return view("exercicios", [
 			

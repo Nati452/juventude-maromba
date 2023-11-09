@@ -4,7 +4,6 @@
     display: block;
 }
 
-
 .caixa1 {
     width: 700px;
     height: 850px;
@@ -19,7 +18,6 @@
 
 .homem {
     color: #fffefe;
-
 }
 
 .corpo-humano {
@@ -30,7 +28,7 @@
 .corpo-humano path {
     stroke: #00052a;
     stroke-width: 6px;
-    transition: 0.5s;
+    transition: 0.25s;
     cursor: pointer;
 }
 
@@ -38,26 +36,35 @@
 #obliques:hover path,
 #forearms:hover path,
 #biceps:hover path,
-#traps:hover path,
 #chest:hover path,
 #quads:hover path,
 #calves:hover path,
+#shoulders:hover path,
+#lowerback:hover path,
+#hamstrings:hover path,
+#glutes:hover path,
+#lats:hover path,
+#traps_middle:hover path,
 #traps:hover path,
-#shoulders:hover path {
+#triceps:hover path,
+.corpo-humano svg g.destaque path {
     fill: var(--cor-destaque);
-    
 }
-
 
 #direito img{
-   
     height: 295px;
-  
 }
-
 
 #direito {
     flex-basis: 475px;
     flex-grow: 1;
     align-content: baseline;
+}
+
+.btn-tipo-corpo {
+    cursor: pointer;
+}
+
+.btn-tipo-corpo.escolhido {
+    color: gold;
 }

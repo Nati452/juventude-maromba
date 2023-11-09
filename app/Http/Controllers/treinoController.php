@@ -2,7 +2,6 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\MusculoAlvo;
 use Illuminate\Http\Request;
 use App\Models\Treino;
 use App\Models\User;
