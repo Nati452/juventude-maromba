@@ -1,37 +1,47 @@
-.text1 {
+body {
     color: rgb(250, 250, 250);
+}
+
+h1 {
+    text-align: center;
+    padding: 30px;
+}
+
+.txt-nome {
     font-size: 50px;
     margin-top: 20px;
+    color: gold;
 }
 
-.container {
-    display: flex; /* Define o container como flexível */
-    align-items: center; /* Alinha verticalmente o conteúdo */
+.float-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    float: left;
 }
 
-.image {
-    flex: 1; /* A imagem ocupa 1 parte do container flexível */
+#img-ex {
+    width: 100%;
+    max-width: 400px;
+    margin: 15px 30px;
+    border-radius: 15px;
 }
 
-.text {
-    flex: 2; /* O texto ocupa 2 partes do container flexível */
-    padding: 10px; /* Espaçamento interno para o texto */
+#txt-descricao {
+    color: #FFF;
+    padding: 30px;
+    text-align: justify;
+    font-size: 180%;
+    line-height: 1.5;
 }
 
-.text {
-color: rgb(255, 255, 255);
-font-size: 20px;
-}
-
-.text2 {
-    color: rgb(255, 255, 255);
-    font-size: 40px;
-    margin-top: 10px;
-    font-weight: bold;
-}
-
-video {
-  width: 1250px;
-  height: 600px;  
-  margin-top: 30px;
+.btn-back {
+    font-size: 125%;
+    text-align: right;
+    color: #FFF;
+    padding: 5px 15px;
+    border: 1px solid #FFF;
+    border-radius: 5px;
+    text-decoration: none;
 }

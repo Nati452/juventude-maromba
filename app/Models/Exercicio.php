@@ -5,6 +5,8 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\HasMany;
+use Illuminate\Support\Collection;
+use Illuminate\Support\Facades\DB;
 
 class Exercicio extends Model
 {
@@ -16,6 +18,7 @@ class Exercicio extends Model
     {
         return $this->hasMany(EstimuloMuscular::class, "id_exercicio");
     }
+
     public function exerciciosTreinos(): HasMany
     {
         return $this->hasMany(ExercicioTreino::class, "id_exercicio");

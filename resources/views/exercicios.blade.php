@@ -14,29 +14,37 @@
         </div>
 
         <div id="homem-frente" class="corpo-humano hidden">
-          <?php include base_path() . '\public\img\corpo-humano\homem-frente.svg'; ?>
+          <?php include base_path() . '/public/img/corpo-humano/homem-frente.svg'; ?>
         </div>
 
         <div id="homem-costas" class="corpo-humano hidden">
-          <?php include base_path() . '\public\img\corpo-humano\homem-costas.svg'; ?>
+          <?php include base_path() . '/public/img/corpo-humano/homem-costas.svg'; ?>
         </div>
 
         <div id="mulher-frente" class="corpo-humano hidden">
-          <?php include base_path() . '\public\img\corpo-humano\mulher-frente.svg'; ?>
+          <?php include base_path() . '/public/img/corpo-humano/mulher-frente.svg'; ?>
         </div>
 
         <div id="mulher-costas" class="corpo-humano hidden">
-          <?php include base_path() . '\public\img\corpo-humano\mulher-costas.svg'; ?>
+          <?php include base_path() . '/public/img/corpo-humano/mulher-costas.svg'; ?>
         </div>
       </div>
     </div>
 
     <div class="flex-row space-20" id="direito">
-      <img src="../img/cartaz/teste.jpg">
-      <img src="../img/cartaz/teste.jpg">
-      <img src="../img/cartaz/teste.jpg">
-      <img src="../img/cartaz/teste.jpg">
+      @foreach($exercicios as $ex)
+      <a class="box-ex" href="/exselecionado/{{ $ex->id }}">
+        <img src="{{ $ex->imagem }}">
+        <h2 class="txt">{{ $ex->nome }}</h2>
+      </a>
+      @endforeach
     </div>
 
+    @if(empty($exercicios))
+    <div class="info-empty">
+      Nenhum resultado encontrado
+    </div>
+    @endif
+
   </div>
-</x-layout>
+</x-layout> 

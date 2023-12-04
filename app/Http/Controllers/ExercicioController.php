@@ -3,28 +3,32 @@
 namespace App\Http\Controllers;
 
 use App\Models\Exercicio;
+use App\Models\MusculoAlvo;
 use Illuminate\Http\Request;
 
 class ExercicioController extends Controller
 {
-	public function exselecionadoView(Request $request)
+	public function exselecionadoView(int $idExercicio)
 	{
-		$idExercicio = $request->input('id');
-		// Pega um único exercício da tabela (acha pelo id)
 		$exercicio = Exercicio::find($idExercicio);
 
 		return view("exselecionado", [
-			'exercicio' => $exercicio, // Envia o exercicio para a blade
+			'exercicio' => $exercicio,
 		]);
 	}
 
 	public function exerciciosView(Request $request)
 	{
 		$musculoAlvo = $request->input("musculo_alvo");
-		// dd($musculoAlvo);
+		$exercicios = Exercicio::all();
+		
+		if($musculoAlvo) {
+			$ma = MusculoAlvo::where('nome', $musculoAlvo)->first();
+			if($ma) $exercicios = $ma->exercicios();
+		}
 
 		return view("exercicios", [
-			
+			"exercicios" => $exercicios,
 		]);
 	}
 }

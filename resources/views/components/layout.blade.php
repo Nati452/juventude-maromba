@@ -31,7 +31,6 @@
     <header class="flex-row content-vcenter  content-space-between " id="cabecalho">
         <span onclick="mostrarMenu()" class="material-symbols-outlined" id="btnmenu">
             menu
-
         </span>
         <div id="divBusca">
             <input type="text" id="txtBusca" placeholder="Buscar..." />
@@ -39,17 +38,16 @@
         </div>
         </div>
         </span>
-        <img src="../img/logo.png" id="imagem">
-
-     
-
+        <a href="/">
+            <img src="../img/logo.png" id="imagem">
+        </a>
     </header>
-    <nav id="menu" class="flex-col  fit-width space-30 hidden">
-     <a href="/treinos" class="flex-row gap-10 content-vcenter">
+    <nav id="menu" class="flex-col fit-width space-30 hidden">
+     <a href="/treinos" class="flex-row gap-20 content-vcenter">
        <img src="../img/treino2.png" id="imgtreino">
        <span>TREINOS</span>
      </a>
-     <a href="/exercicios" class="flex-row space-10 content-vcenter">
+     <a href="/exercicios" class="flex-row gap-20 content-vcenter">
      <img src="../img/exercicio2.png" id="imgexercicios">
      <span>EXERCÍCIOS</span>
      </a>
